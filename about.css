@@ -8,6 +8,23 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: project_font;
+  src: url(./tull/Lora-VariableFont_wght.ttf);
+}
+
+body{
+  font-family: project_font;
+}
+
+@font-face {
+  font-family: button_font;
+  src: url(./tull/Anton-Regular.ttf);
+}
+
+button{ font-family: button_font;}
+
+
 nav {
   height: 50px;
   display: flex;
@@ -104,6 +121,7 @@ nav a img {
   text-decoration: none;
   color: #bd4f00;
   font-size: medium;
+  
 }
 
 .shaw {
@@ -234,19 +252,19 @@ section {
 }
 
 .con_asso_right {
-  height: 550px;
+  height: 500px;
   width: 50%;
   justify-content: space-between;
 }
 
 .con_asso_right h3 {
-  width: 50%;
+  width: 80%;
   font-size: 20px;
   color: #bd4f00;
 }
 
 .con_asso_right p {
-  width: 55%;
+  width: 70%;
   font-size: 20px;
 }
 
@@ -288,7 +306,7 @@ hr {
 }
 .our_miss_right_p{
     width: 55%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 

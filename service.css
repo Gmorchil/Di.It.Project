@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: project_font;
+  src: url(./tull/Lora-VariableFont_wght.ttf);
+}
+
+body{
+  font-family: project_font;
+}
+
+@font-face {
+  font-family: button_font;
+  src: url(./tull/Anton-Regular.ttf);
+}
+
+button{ font-family: button_font;}
+
 nav {
   height: 50px;
   display: flex;
